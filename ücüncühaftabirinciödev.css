@@ -1,0 +1,83 @@
+body{
+    background-color: #FFF8F8 !important;
+}
+.bg-pembe{
+background-color: #FFF8F8;
+}
+.active{
+    color:rgb(241, 79, 79)!important;
+    font-weight: 600;
+}
+.color{
+    color:rgb(23, 116, 28)!important;
+    font-weight: 500;
+}
+.bolum1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #FFF8F8 !important;
+}
+.kart{
+    
+    background-color: #FFF8F8 !important;
+    border:none;
+    
+    
+}
+
+.yesil{
+    color:#0a5b59;
+    font-weight: 700;
+    font-size: 34px;
+}
+.kirmizi{
+    color:#FA5C58;
+    font-weight: 700;
+    font-size: 29px;
+}    
+.paragraf{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: blue !important;
+}
+.card{
+    border:none;
+}
+strong{
+    background-color: #ebb0b0 !important;
+   
+}
+.bosluk{
+    line-height:2.25;
+    font-size: 17px;
+    font-weight: 600;
+}
+.aw-zoom
+{
+    position: relative;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    font-size: 18px;
+    
+}
+.aw-zoom:hover 
+{
+    z-index:2;
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    transform: scale(1.1);
+    font-size: 22px;
+    color: rgb(215, 245, 236);
+    background-color: rgba(247, 248, 247, 0.575);
+    -o-transform: scale(1.1);
+}
